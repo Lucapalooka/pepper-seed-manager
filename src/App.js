@@ -1,23 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
+// src/App.js
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: '2rem', fontFamily: 'Arial' }}>
+      <h1>Pepper Seed Manager 🌶️</h1>
+      <p>You're viewing the real deployed version 🎉</p>
     </div>
   );
 }
